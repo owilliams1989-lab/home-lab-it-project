@@ -1,0 +1,17 @@
+Troubleshooting & Lessons Learned
+Issue 1: APIPA (169.254.x.x) Connectivity Failure
+Symptom: Windows Client and Linux Server could not ping each other despite being on the same virtual network.
+
+Diagnosis: Windows defaulted to an APIPA address because no DHCP server was present on the Internal Network.
+
+Resolution: Configured static IPv4 addresses (192.168.10.x/24) for both hosts, forcing them onto the same subnet.
+
+Issue 2: YAML Configuration Errors
+Symptom: netplan apply failed with indentation errors.
+
+Lesson: YAML is whitespace-sensitive. Learned to strictly use 2-space indentation levels and avoided the Tab key entirely to ensure configuration validity.
+
+Issue 3: Routing Conflicts (The "Failed to Fetch" Error)
+Symptom: Linux server had an internal IP but could not download updates.
+
+Resolution: Implemented a dual-adapter strategy using NAT for external package retrieval and Internal Networking for secure host-to-host communication.
