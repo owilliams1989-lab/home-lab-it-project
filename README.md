@@ -20,7 +20,7 @@ network:
     enp0s3:
       addresses:
         - 192.168.10.20/24
-        
+![Under The Hood](under-the-hood.png)        
 3. Career-Relevant Skills Demonstrated
 Layer 3 Troubleshooting: Diagnosed and resolved APIPA conflicts using static addressing.
 
