@@ -20,12 +20,12 @@ network:
     enp0s3:
       addresses:
         - 192.168.10.20/24
-        3. Career-Relevant Skills Demonstrated
         
+3. Career-Relevant Skills Demonstrated
 Layer 3 Troubleshooting: Diagnosed and resolved APIPA conflicts using static addressing.
 
 Remote Administration: Configured SSH for secure remote management from Windows to Linux.
 
 Security: Managed UFW (Uncomplicated Firewall) to secure Port 80.
 
-Documentation: Detailed technical procedures for systems replication and disaster recovery.
+Documentation: Detailed technical procedures for systems replication and disaster recovery.        
